@@ -12,7 +12,7 @@ require 'php_mailer/Exception.php';
 require 'php_mailer/PHPMailer.php';
 require 'php_mailer/SMTP.php';
 include "tg_api.php";
-const TG_TOKEN = "bot7320353372:AAHIPa2eOOrwJXs-pWZ4URTPlVYw7NU3ZCI";
+const TG_TOKEN = "";
 const ADMIN_IDS = [5877176602, 157207562];
 $tg = new tg_api(TG_TOKEN);
 
